@@ -1,19 +1,17 @@
 class Person
-  @nameA
   def name
-    @nameA
+    @name
   end
 
   def name=(nameNew)
-    @nameA = nameNew
+    @name = nameNew
   end
 
-  @jobType
   def job
-    @jobType
+    @job
   end
 
   def job=(jobTypeNew)
-    @jobType = jobTypeNew
+    @job = jobTypeNew
   end
 end
